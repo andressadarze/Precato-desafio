@@ -50,3 +50,10 @@ export interface IUserDB {
     phone: string
     createdAt: Date 
 }
+
+export interface ISignupInputDTO {
+    name: string,
+    email: string,
+    cpf: string,
+    phone: string
+}
