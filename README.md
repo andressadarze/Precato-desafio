@@ -22,7 +22,7 @@ BCRYPT_COST = 12
 
 ### Executar o projeto:
 
--   `npm run dev:`
+-   `npm run dev`:
     Estabelece a conexão com o banco de dados e reinicia automaticamente o servidor `localhost` toda a vez que o projeto for alterado e salvo.
 
 ### Criando e populando as tabelas
