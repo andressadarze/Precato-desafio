@@ -41,3 +41,12 @@ export class User {
     }
 
 }
+
+export interface IUserDB {
+    id: string,
+    name: string,
+    email: string,
+    cpf: string,
+    phone: string
+    createdAt: Date 
+}
