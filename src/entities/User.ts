@@ -57,3 +57,4 @@ export interface ISignupInputDTO {
     cpf: string,
     phone: string
 }
+
