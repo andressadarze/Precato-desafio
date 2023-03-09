@@ -2,7 +2,7 @@
 
 ## Descrição do Projeto
 
-Criação de uma API REST que realize a inscrição, caso esta seja válida, armamazenando as informações em um banco de dados relacional.
+Criação de uma API REST que realize a inscrição, caso esta seja válida, armazenando as informações em um banco de dados relacional.
 
 ## Funcionalidades
 
