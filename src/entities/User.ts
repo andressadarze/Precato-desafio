@@ -48,7 +48,7 @@ export interface IUserDB {
     email: string,
     cpf: string,
     phone: string
-    createdAt: Date 
+    created_at: Date 
 }
 
 export interface ISignupInputDTO {

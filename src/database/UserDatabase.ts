@@ -11,7 +11,7 @@ class UserDatabase extends BaseDatabase {
             email: user.getEmail(),
             cpf: user.getCPF(),
             phone: user.getPhone(),
-            createdAt: user.getCreatedAt()
+            created_at: user.getCreatedAt()
         }
 
         await BaseDatabase.connection(UserDatabase.TABLE_USERS).insert(userDB)

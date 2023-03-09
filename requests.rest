@@ -1,0 +1,9 @@
+POST http://localhost:3003/user/signup
+Content-Type: application/json
+
+{
+    "name": "Andressa",
+    "email": "andressa@precato.com",
+    "cpf": "89756423115",
+    "phone": "997788552"
+}
