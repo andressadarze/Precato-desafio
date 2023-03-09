@@ -47,7 +47,7 @@ export interface IUserDB {
     name: string,
     email: string,
     cpf: string,
-    phone: string
+    phone: string,
     created_at: Date 
 }
 
@@ -58,3 +58,16 @@ export interface ISignupInputDTO {
     phone: string
 }
 
+export interface IGetReportInputDTO {
+    startDate: Date,
+    endDate: Date
+}
+
+export interface IGetReportOutputDTO {
+    id: string,
+    name: string,
+    email: string,
+    cpf: string,
+    phone: string,
+    createdAt: string
+}

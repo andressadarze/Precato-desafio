@@ -1,3 +1,4 @@
+### signup
 POST http://localhost:3003/user/signup
 Content-Type: application/json
 
@@ -6,4 +7,14 @@ Content-Type: application/json
     "email": "andressa@precato.com",
     "cpf": "89756423115",
     "phone": "997788552"
+}
+
+### GetRegistersReport
+GET http://localhost:3003/user/report
+Content-Type: application/json
+
+{
+    "startDate": "2023/03/03",
+    "endDate": "2023/03/11"
+    
 }

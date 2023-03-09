@@ -26,12 +26,13 @@ class UserDatabase extends BaseDatabase {
         return userDB[0]
     }
 
-    public registersReport = async(startDate: Date, endDate: Date) => {
+    public getRegistersReport = async(startDate: Date, endDate: Date) => {
         const usersDB : IUserDB[] = await BaseDatabase
         .connection(UserDatabase.TABLE_USERS)
         .select()
         .whereBetween(`created_at`, [startDate, endDate])
-
+        .orderBy(`created_at`, "asc")
+      
         return usersDB
     }
 }

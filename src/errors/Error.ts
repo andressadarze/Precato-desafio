@@ -36,3 +36,9 @@ export class InvalidPhone extends BaseError {
         super("O número deve ter 9 dígitos", 401)
     }
 }
+
+export class NullReport extends BaseError {
+    constructor(){
+        super("Não há registro de inscrições nesse período", 404)
+    }
+}
