@@ -27,6 +27,6 @@ BCRYPT_COST = 12
 
 ### Criando e populando as tabelas
 
-Acessar o arquivo `tables.sql` e executar os comandos de criação (e população, se desejar) da tabela `Precato_Form_Answer`.
+Acessar o arquivo `tables.sql` e executar os comandos de criação (e população, se desejar) da tabela `Precato_Forms_Answer`.
 
 Executar as requisições através do arquivo `requests.rest` da aplicação.
